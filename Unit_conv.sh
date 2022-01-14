@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Enter a number"
- val=$(( $number * 12 ))
-echo $val
+read -p "feet:" ft
+echo "$(($ft * 12)) inc"
 
 
